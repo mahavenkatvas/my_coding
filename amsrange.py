@@ -9,7 +9,6 @@ for n in range(n+1,k):
         n=n//10
     if x==ams:
         l.append(x)
-print(l)
 for i in range(len(l)-1):
   print(l[i],end=" ")
 print(l[-1])  
