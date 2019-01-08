@@ -1,0 +1,10 @@
+n,k=map(int,input().split(" "))
+n=n+1
+l=[]
+while n<k:
+  if n%2==0:
+    l.append(n)
+  n+=1
+for in range(len(l)-1):
+  print(l[i],end=" ")
+print(l[-1])  
