@@ -1,7 +1,7 @@
 n=int(input())
 if n>60:
+    x=n%60
     r=n//60
-    n=n-7*60
-    print(r,n)
+    print(r,x)
 else:
     print(0,n)
