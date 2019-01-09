@@ -1,0 +1,5 @@
+n,k=map(int,input().split(" "))
+r,s=map(int,input().split(" "))
+sub=abs(k-s)
+sub2=abs(n-r)
+print(sub2,sub)
