@@ -1,8 +1,8 @@
 n=int(input())
 i=0
 j=1
-l=[]
-for i in range(n):
+l=[1]
+for x in range(n-1):
     k=i+j
     i=j
     j=k
