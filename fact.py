@@ -1,4 +1,4 @@
-#mahalakshmi
+#maha
 n=int(input())
 i=1
 j=1
