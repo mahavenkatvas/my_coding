@@ -1,3 +1,4 @@
+#maha
 n=int(input())
 if n%4==0:
   if n%100==0:
