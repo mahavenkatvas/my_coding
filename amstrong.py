@@ -1,4 +1,4 @@
-#mahalakshmi
+#maha
 n=int(input())
 x=n
 ams=0
