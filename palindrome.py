@@ -1,3 +1,4 @@
+#maha
 n=int(input())
 x=n
 rev=0
