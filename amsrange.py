@@ -1,4 +1,4 @@
-#mahalakshmi
+#maha
 n,k=map(int,input().split(" "))
 l=[]
 for n in range(n+1,k):
