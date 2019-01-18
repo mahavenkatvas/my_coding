@@ -1,3 +1,3 @@
 #maha
-l=[int(x) for in input().split()]
+l=[int(x) for x in input().split()]
 print(max(l))
