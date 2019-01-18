@@ -1,3 +1,4 @@
+#maha
 n=int(input())
 if n>60:
     x=n%60
