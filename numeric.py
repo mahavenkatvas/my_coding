@@ -1,4 +1,4 @@
-#MAHALAKSHMI
+#MAHA
 n=input()
 if n.isnumeric():
 	print("yes")
