@@ -1,7 +1,7 @@
 n=int(input())
 l=[]
 while n>0:
-   x=x%10
+   x=n%10
    n=n//10
    l.append(x)
 for i in range(len(l)-1):
