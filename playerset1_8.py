@@ -1,3 +1,4 @@
+#maha
 s=input()
 s=s.split(" ")
 l=[]
