@@ -1,5 +1,6 @@
 s=input()
-if s.isalnum():
-  print("Yes")
-else:
-  print("No")
+if len(s)>0:
+    if any(i.isalpha() for i in s) and any(i.isdigit() for i in s):
+        print("Yes")
+    else:
+        print("No")
