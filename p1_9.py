@@ -7,3 +7,13 @@ def prime(n):
         i+=1
     if n==i:
         return 1
+  
+  
+  
+n,m=map(int,input().split(" "))
+c=0
+for i in range(n,m+1):
+     x=prime(i)
+     if x==1:
+        c=c+1 
+print(c)
