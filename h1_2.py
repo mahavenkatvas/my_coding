@@ -6,4 +6,4 @@ for i in range(len(l)):
     k.append(x)
     l.remove(x)
 for i in range(len(k)):
-      print(k[i],end=""))
+      print(k[i],end="")
