@@ -8,5 +8,8 @@ for i in range(len(l)):
 for i in range(len(k)):
     if k[i]>1 and l[i] not in s:
          s.append(l[i])
-s.sort()
-print(*s)
+if len(s)!=0:
+    s.sort()
+    print(*s)
+else:
+    print("unique")
