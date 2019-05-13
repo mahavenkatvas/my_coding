@@ -8,7 +8,7 @@ for i in range(n):
         x=list(x)
         c=0
         for i in range(len(s)):
-            if x[i] in s:
+            if s[i] in x:
                 c=c+1
         if c==len(s):
             t=t+1
