@@ -1,4 +1,4 @@
 #maha
 n=input()
-x=n.replace("  ","")
+x=n.replace("   ","")
 print(x)
