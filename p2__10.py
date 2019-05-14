@@ -1,8 +1,13 @@
 s=input()
 s=list(s)
-l=[]
-for i in range(len(s)):
-    x=chr(ord(s[i])+3)
-    l.append(x)
-for i in range(len(l)):
-    print(l[i],end="")
+x=[]
+l=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C"]
+i=0
+while i<len(s):
+	for j in range(len(l)):
+		if s[i]==l[j]:
+			x.append(l[j+3])
+	i+=1
+for i in range(len(x)):
+	print(x[i],end="")
+       
