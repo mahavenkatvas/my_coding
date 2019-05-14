@@ -1,6 +1,6 @@
 #maha
 s=input()
-if s.isnumeric():
+if (s.isnumeric()==True):
 	print("yes")
 else:
 	print("no")
