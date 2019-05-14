@@ -1,4 +1,5 @@
 #maha
-n=input()
-x=n.replace(" ","")
-print(x)
+s=input()
+s=s.split(" ")
+s="".join(s)
+print(s)
