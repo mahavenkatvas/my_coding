@@ -6,4 +6,4 @@ if a==c and c==e:
 elif b==d and d==f:
 	print("yes")
 else:
-	print("no")
+        print("no")
