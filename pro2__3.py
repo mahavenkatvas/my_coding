@@ -1,3 +1,4 @@
+#mahalakshmi
 s=input()
 l=["GLGLGL","GRGRGR","GLLG","GRRG"]
 c=0
