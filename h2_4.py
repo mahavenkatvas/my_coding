@@ -1,4 +1,4 @@
-#maha
+#mahalakshmi
 from itertools import permutations
 n=list(input())
 p = permutations(n)
