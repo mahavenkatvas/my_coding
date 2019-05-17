@@ -4,7 +4,6 @@ n=list(input())
 p = permutations(n)
 b=[]
 for i in list(p):
-    print(i)
     s=''
     for j in i:
        s+=j
