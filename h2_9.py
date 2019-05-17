@@ -1,3 +1,4 @@
+#maha
 n,k=map(int,input().split())
 d=[]
 for i in range(n):
